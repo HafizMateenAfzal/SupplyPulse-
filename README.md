@@ -1,6 +1,6 @@
 # Retail Demand Forecasting Dashboard
 
-An interactive, single-file Streamlit application designed for retail inventory optimization. By forecasting next-week product sales quantities across store locations, this tool helps retail managers maintain optimal stocking levels, preventing costly stockouts during peak periods while reducing capital tied up in excess warehouse inventory.
+An interactive, single-file Streamlit application for retail inventory optimization. By forecasting next-week product sales quantities across store locations, this tool helps retail managers maintain optimal stocking levels, preventing costly stockouts during peak periods while reducing capital tied up in excess warehouse inventory.
 
 This dashboard integrates a **real historical retail dataset** to provide realistic demand forecasts and business insights.
 
@@ -26,7 +26,7 @@ This dashboard integrates a **real historical retail dataset** to provide realis
 
 ---
 
-## 🔍 How It Works (For Recruiter / Portfolio Viewers)
+## 🔍 How It Works
 Rather than using simple moving averages, this dashboard acts as an intelligent sales assistant:
 1. **Real Sales History:** We train a forecasting model on Kaggle's historical store demand dataset, containing organic seasonality, weekly peaks, and multi-year retail growth.
 2. **Holiday Mapping:** Real dates are mapped to major US holidays (New Year's, Memorial Day, July 4th, Labor Day, Thanksgiving, Black Friday, and Christmas) to capture holiday demand spikes.
