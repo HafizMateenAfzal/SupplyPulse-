@@ -36,28 +36,5 @@ Rather than using simple moving averages, this dashboard acts as an intelligent 
 6. **Time-Based Evaluation:** Rather than shuffling data randomly (which leaks future information into the past), the model is evaluated on a strict **time-based split** (the final 8 weeks of the 5-year timeline), ensuring realistic simulation of real-world forecasting accuracy.
 7. **Business Recommendation:** The model translates numbers into action by predicting a base sales figure and automatically recommending a minimum inventory stocking level including a **15% safety buffer** to protect against unexpected sales surges.
 
----
-
-## 💻 Local Setup & Installation
-
-Follow these steps to run the dashboard on your local machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/retail-demand-forecasting.git
-   cd retail-demand-forecasting
-   ```
-
-2. **Prepare the dataset:**
-   Ensure the `store_sales.csv` file is placed in the root directory.
-
-3. **Install dependencies:**
-   Ensure you have Python 3.11+ installed, then run:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Start the Streamlit application:**
-   ```bash
    python -m streamlit run app.py
    ```
